@@ -1,0 +1,6 @@
+Para demarcar uma coluna específica, basta criar uma nova variável e atribuir à ela um valor com o nome da coluna e, entre
+colchetes os nomes das colunas respectivas entre aspas. À exemplo do mencionado: 
+cor_quantidade = comidas[["cor", "quantidade"]]
+Já para alcançar a filtração de linhas desejadas, deve-se estabelecer uma condição em que as linhas do Dataframe
+podem ser representadas através de seus nomes em "aspas" e entre colchetes. Seguindo o exemplo supracitado:
+comidas["quantidade"] > 10 #Determina se a quantidade de comidas é acima de 10 ou não, filtrando as linhas que não atingem esse requisito

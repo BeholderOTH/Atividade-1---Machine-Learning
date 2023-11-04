@@ -1,0 +1,8 @@
+A forma mais recomendada de lidar com valores ausentes (NaN) seria através da implementação do método "isna()" com
+a finalidade de efetuar a verificação de quais valores estão ausentes no Dataframe. O retorno desse método se dá
+através de uma matriz booleana, nessa "True" representam valores nulos e "False" o inverso. À exemplo disso a sintaxe
+pro método descrito seria:
+exemplo = dataframe.isna()
+Adicionalmente, para lidar com os referidos valores ausentes, outros métodos como "dropna()"
+podem ser usados para remover linhas ou colunas que contenham NaN, ou, alternativamente
+utilizar o método "fillna()" para preencher esses valores ausentes com um válido e especificado. 

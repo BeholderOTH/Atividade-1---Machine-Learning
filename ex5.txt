@@ -1,0 +1,10 @@
+Para solucionar tal problema, um possível caminho se faz visível no uso da definição de uma função que receba a lista
+responsável por conter os números inteiros, e a insira em um laço de repetição (for) atravessando todos os elementos
+da lista e estabelecendo duas variáveis (menorNumero e maiorNumero, por exemplo) previamente, e optando por 
+originar dois laços de decisões, um que confere se o elemento de dado momento da lista é menor que "menorNumero", e
+, nesse caso, sobscreve o valor de "menorNumero" com o valor desse dado elemento. O contrário é verdade para "maiorNúmero"
+onde se o valor do elemento de dado momento da lista é maior que o de "maiorNumero" e, em caso afirmativo, substitui
+o valor de "maiorNumero" por esse valor. A função então é finalizada retornando "menorNumero" e "maiorNumero". Para simplificar
+o processo com os laços de decisão e repetição é possível simplesmente usufruir das funções "min()" e "max()" em relação
+à lista,"pulando" uma parte significante dessa etapa, e atribuindo os seus valores, respectivamente, para as variáveis
+"menorNumero" e "maiorNumero".

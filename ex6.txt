@@ -1,0 +1,6 @@
+Para efetuar a leitura de um arquivo CSV em um Dataframe, a função "read_csv()" seria ideal, lendo os dados armazenados
+respectivos. Um exemplo da sintaxe dessa função seria:
+exemplo = pd.read_csv("data/exemplo.csv")
+Em seguida, cumprindo o requisito de exibir as primeiras linhas, basta usufruir do método "head()", inserindo o 
+número de linhas necessárias como um argumento. Utilizando o mesmo exemplo ilustrado acima:
+exemplo.head(5) #Nesse caso as 5 primeiras linhas serão exibidas
